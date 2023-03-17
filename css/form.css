@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #EAEAEA;
+    background-image: url('../img/pharecp.png');
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.rs {
+    padding-left: 50px;
+}
+
+
+
+h1 {
+
+    left: 62px;
+    top: 189px;
+    font-family: 'Boska', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129px;
+    font-size: 60px;
+    padding-left: 50px;
+
+
+    color: #EAEAEA;
+
+    text-shadow: 50px 30px 0px rgba(206, 206, 206, 0.1);
+}
+
+.flex {
+    display: flex;
+}
+
+.dr {
+    width: 80%;
+    text-align: right;
+    margin-left: 300px;
+}
+
+ul {
+    color: #EAEAEA;
+    padding-left: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+.aa {
+    text-decoration: none;
+}
+
