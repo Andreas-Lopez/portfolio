@@ -391,3 +391,58 @@ footer {
   margin-top: 100px;
 
 }
+
+.containert_solid4 .title_wrapper4 h1 {
+
+  background: url('../img/citagrey.png');
+  background-size: 100vw auto;
+  background-position: center;
+  filter: grayscale(100%);
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: black;
+}
+
+.containert_image4 {
+
+  background-image: url('../img/citagrey.png');
+  background-size: 100vw auto;
+  background-position: center;
+  background-attachment: fixed;
+  top: 100vh;
+}
+
+.containert_solid4 {
+  background: #2E2E2E;
+  top: 0;
+}
+
+.title_wrapper4 {
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.title_wrapper4 h1 {
+  text-align: center;
+  font-size: 200px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Boska', serif;
+  font-weight: 900;
+
+}
+
+
+
+.containert_image4 .title_wrapper4 h1 {
+  color: #EAEAEA;
+}
