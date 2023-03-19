@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 header {
@@ -583,6 +584,7 @@ body {
   display: flex;
   align-items: flex-end;
   z-index: 15;
+  margin-top: 20px;
 }
 
 .grayscaleindexjf:hover {
@@ -601,6 +603,8 @@ body {
   display: flex;
   align-items: flex-end;
   z-index: 15;
+  margin-top: 20px;
+  overflow: hidden;
 
 }
 
@@ -621,6 +625,7 @@ body {
   display: flex;
   align-items: flex-end;
   z-index: 15;
+  margin-top: 20px;
 }
 
 .grayscaleecho:hover {
@@ -639,6 +644,7 @@ body {
   display: flex;
   align-items: flex-end;
   z-index: 15;
+  margin-top: 20px;
 }
 
 .grayscaleindexposters:hover {
@@ -658,7 +664,7 @@ body {
   height: 450px;
   display: flex;
   align-items: flex-end;
-
+  margin-top: 20px;
 }
 
 
@@ -677,6 +683,7 @@ body {
   height: 450px;
   display: flex;
   align-items: flex-end;
+  margin-top: 20px;
 
 }
 
@@ -695,7 +702,7 @@ body {
   height: 450px;
   display: flex;
   align-items: flex-end;
-
+  margin-top: 20px;
 
 }
 
@@ -923,18 +930,7 @@ body {
   width: 40%;
 }
 
-footer {
-  background-color: #2E2E2E;
-  height: 89px;
-  line-height: 89px;
-  box-shadow: 0px -4px 4px 4px rgba(0, 0, 0, 0.25);
-  text-align: center;
-  color: #EAEAEA;
-  font-family: 'Josefin Sans', sans-serif;
-  width: 100%;
-  margin-top: 100px;
 
-}
 
 .bienvenue {
   text-align: center;
@@ -1037,3 +1033,65 @@ footer {
 
 
 
+    @media (max-width: 768px) {
+      #item-0, #item-3, #item-6  {
+    
+      
+       display: flex;
+       flex-direction: column;
+      margin-right: 50px;
+       overflow: hidden;
+       background-position: center;
+       background-size: cover;
+       max-width: 100%;
+                    height: auto;
+      }
+      
+      }
+
+
+
+  
+  
+  
+
+        @media screen and (max-width: 768px) {
+          .container {
+            flex-direction: column;
+          }
+          .left-column,
+          .right-column {
+            flex: auto;
+            width: 100%;
+          }
+          .marginap {
+            margin-left: 0;
+          }
+          .propostxt {
+            font-size: 14px;
+            margin-bottom: 30px;
+            margin-right: 0;
+            margin: 30px;
+          }
+          .logoap {
+            width: 60%;
+          }
+          h1 {
+            margin-left: 30px;
+          }
+        }
+        
+        @media screen and (max-width: 480px) {
+          .propostxt {
+            font-size: 12px;
+            margin-bottom: 20px;
+          }
+          .logoap {
+            width: 80%;
+          }
+          h1 {
+            margin-left: 30px;
+            font-size: 30px;
+          }
+        }
+      
