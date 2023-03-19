@@ -340,7 +340,6 @@ span {
   margin-top: 100px;
   width: 90%;
 
-
 }
 
 .deux2 {
@@ -654,5 +653,28 @@ span {
 
 .containert_image7 .title_wrapper7 h1 {
   color: #EAEAEA;
+}
+
+
+@media screen and (max-width: 768px) {
+  .fou {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .taille2 {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .foufou {
+    width: 100%;
+    height: 100%;
+  }
+
 }
 

@@ -7,7 +7,7 @@
 
 html {
   scroll-behavior: smooth;
-  
+
 }
 
 header {
@@ -604,7 +604,6 @@ body {
   align-items: flex-end;
   z-index: 15;
   margin-top: 20px;
-  overflow: hidden;
 
 }
 
@@ -995,9 +994,11 @@ body {
 }
 
 @media (max-width: 768px) {
-  #item-2, #item-5  {
 
-  
+  #item-2,
+  #item-5 {
+
+
     font-family: 'boska';
     font-style: normal;
     font-weight: 400;
@@ -1005,93 +1006,116 @@ body {
     text-align: center;
     z-index: 5;
     color: #2E2E2E;
-  text-shadow: none;
-  
-  
-  }
-  
-  }
-
-  @media (max-width: 768px) {
-     #item-4, #item-7 {
-  
-    
-      font-family: 'boska';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 40px;
-      text-align: center;
-      z-index: 5;
-      color: #EAEAEA;
     text-shadow: none;
-    
-    
-    }
-    
-    }
+
+
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  #item-4,
+  #item-7 {
+
+
+    font-family: 'boska';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    z-index: 5;
+    color: #EAEAEA;
+    text-shadow: none;
+
+
+  }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  #item-0,
+  #item-3,
+  #item-6 {
+
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    background-size: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    flex: auto;
+    width: 100%;
+  }
+
+  .marginap {
+    margin-left: 0;
+  }
+
+  .propostxt {
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin: 30px;
+  }
+
+  .logoap {
+    width: 60%;
+  }
+
+  h1 {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .propostxt {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .logoap {
+    width: 80%;
+  }
+
+  h1 {
+    margin-left: 30px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .angry-gridgray {
+   width: 100%;
+   overflow: hidden;
   
-
-
-
-    @media (max-width: 768px) {
-      #item-0, #item-3, #item-6  {
-    
-      
-       display: flex;
-       flex-direction: column;
-      margin-right: 50px;
-       overflow: hidden;
-       background-position: center;
-       background-size: cover;
-       max-width: 100%;
-                    height: auto;
-      }
-      
-      }
-
-
-
   
-  
-  
+  }
+}
 
-        @media screen and (max-width: 768px) {
-          .container {
-            flex-direction: column;
-          }
-          .left-column,
-          .right-column {
-            flex: auto;
-            width: 100%;
-          }
-          .marginap {
-            margin-left: 0;
-          }
-          .propostxt {
-            font-size: 14px;
-            margin-bottom: 30px;
-            margin-right: 0;
-            margin: 30px;
-          }
-          .logoap {
-            width: 60%;
-          }
-          h1 {
-            margin-left: 30px;
-          }
-        }
-        
-        @media screen and (max-width: 480px) {
-          .propostxt {
-            font-size: 12px;
-            margin-bottom: 20px;
-          }
-          .logoap {
-            width: 80%;
-          }
-          h1 {
-            margin-left: 30px;
-            font-size: 30px;
-          }
-        }
-      
