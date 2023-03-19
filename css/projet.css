@@ -32,9 +32,7 @@ header {
 
 
 
-.tiproj {
-  height: 200vh;
-}
+
 
 body {
   margin: 0;
@@ -76,6 +74,12 @@ body {
   font-weight: 900;
 
 }
+@media screen and (max-width: 768px) {
+  .title_wrapper h1 {
+    font-size: 100px;
+  }
+}
+
 
 
 
@@ -319,6 +323,11 @@ span {
   font-weight: 900;
 
 }
+@media screen and (max-width: 768px) {
+  .title_wrapper2 h1 {
+    font-size: 100px;
+  }
+}
 
 
 
@@ -337,6 +346,10 @@ span {
 .deux2 {
   grid-area: deux;
   text-align: right;
+}
+
+.tiproj {
+  height: 200vh;
 }
 
 .containert_solid3 .title_wrapper3 h1 {
@@ -386,6 +399,12 @@ span {
   font-family: 'Boska', serif;
   font-weight: 900;
 
+}
+
+@media screen and (max-width: 768px) {
+  .title_wrapper3 h1 {
+    font-size: 100px;
+  }
 }
 
 
@@ -456,6 +475,11 @@ footer {
 
 }
 
+@media screen and (max-width: 768px) {
+  .title_wrapper4 h1 {
+    font-size: 100px;
+  }
+}
 
 
 .containert_image4 .title_wrapper4 h1 {
@@ -511,6 +535,11 @@ footer {
 
 }
 
+@media screen and (max-width: 768px) {
+  .title_wrapper5 h1 {
+    font-size: 100px;
+  }
+}
 
 
 .containert_image6 .title_wrapper6 h1 {
@@ -566,6 +595,11 @@ footer {
 
 }
 
+@media screen and (max-width: 768px) {
+  .title_wrapper6 h1 {
+    font-size: 100px;
+  }
+}
 
 
 .containert_image6 .title_wrapper6 h1 {
@@ -621,8 +655,14 @@ footer {
 
 }
 
+@media screen and (max-width: 768px) {
+  .title_wrapper7 h1 {
+    font-size: 100px;
+  }
+}
 
 
 .containert_image7 .title_wrapper7 h1 {
   color: #EAEAEA;
 }
+
