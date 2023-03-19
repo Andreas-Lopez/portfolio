@@ -209,3 +209,11 @@ const gsaptxt = document.querySelector('.gsaptxt');
 
 // Utilisation de la fonction fromTo() pour animer le texte
 gsap.fromTo(gsaptxt, {x: '-100%'}, {x: '0%', duration: 1, ease: 'power2.out'});
+
+
+
+
+
+
+
+
